@@ -1,0 +1,157 @@
+@media (max-width: 768px) {
+    * {
+        font-size: 1rem;
+    }
+
+    .nav-list{
+        gap: 1;
+        padding: 0px 1px;
+    }
+
+    .home {
+        padding: 10px;
+        background-color: #3d535f10;
+    }
+
+    .shape1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        animation: anima 2s ease-in-out infinite alternate;
+    }
+
+    .shape2 {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        animation: anima2 3s ease-in-out infinite alternate;
+    }
+
+    .shape3 img {
+        z-index: 11;
+        height: 250px;
+        position: absolute;
+        animation: anima4 2s ease-in-out infinite alternate;
+    }
+
+    .my-photo img {
+        height: 340px;
+        animation: anima3 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes anima {
+        from {
+            margin: 460px 0px 0px 20rem;
+        }
+
+        to {
+            margin: 480px 0px 0px 20rem;
+        }
+    }
+
+    @keyframes anima2 {
+        from {
+            margin: 600px 0px 0px -80px;
+        }
+
+        to {
+            margin: 650px 0px 0px -50px;
+        }
+    }
+
+    @keyframes anima3 {
+        from {
+            margin: 60px 0px 0px 30%;
+        }
+
+        to {
+            margin: 80px 0px 0px 32%;
+        }
+    }
+
+    @keyframes anima4 {
+        from {
+            margin: 80px 0px 0px 25%;
+        }
+
+        to {
+            margin: 100px 0px 0px 27%;
+        }
+    }
+
+    .about-me {
+        margin: 500px 10px -10px 10%;
+        width: 300px;
+    }
+
+    .hello {
+       padding-top: 10px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .about-me h1 {
+        font-size: 30px;
+        font-weight: 800;
+        
+    }
+
+    .multiText {
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+
+
+    .skills {
+        position: absolute;
+        bottom:auto;
+        margin: 400px -10px;
+        padding: 12px 10px;
+    }
+
+    .skills img{
+        height: 27px;
+    }
+
+    .btns button {
+        font-size: 14px;
+    }
+
+    .about-me p{
+        width: 80vw;
+        font-size: 1rem;
+    }
+
+    .about-us p{
+        width: 80vw;
+        font-size: 1rem;
+    }
+    
+    .bio {
+        width: 80%;
+        margin: 70px;
+    }
+
+    .bio h1 {
+        font-size: 35px;
+        font-weight:900;
+    }
+
+
+
+      
+
+    /* certificate */
+
+    .cert {
+        margin: 50px;
+        border: 25px solid rgba(0, 0, 0, 0.771);
+        border-radius: 4px;
+        padding: 20px;
+        height: 45vh;
+        width: 90vw;
+        align-items: center;
+        display: block;
+        box-shadow: 10px 10px 20px rgb(127, 127, 127), inset 3px 3px 2px rgba(0, 0, 0, 0.619);
+      }
+}
